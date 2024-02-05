@@ -1,0 +1,148 @@
+@media (min-width: 800px) {
+  .forside_undersider {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .forside_undersider a {
+    font-size: 24px;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 2px;
+  }
+
+  .forside_undersider a:hover {
+    color: darkgrey;
+    cursor: pointer;
+  }
+
+  .kategori_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .kategori {
+    border: solid 2px lightgray;
+    border-radius: 5px;
+    padding: 15px;
+  }
+
+  .kategori:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  }
+
+  .underkategorier_flex {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+  }
+
+  .underkategorier a:hover {
+    color: gray;
+  }
+
+  .produktliste_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-left: 150px;
+  }
+
+  .bold,
+  .bold_3 {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+
+  .bold img {
+    align-self: center;
+    height: auto; /* For at bevare billedets proportioner */
+    margin: 0 auto;
+  }
+
+  .bold_3 img {
+    opacity: 0.5;
+  }
+
+  .subtle {
+    color: #6d6e71;
+  }
+
+  .price {
+    font-weight: bold;
+  }
+
+  .sale {
+    position: relative;
+    top: -13%;
+    left: 76%;
+  }
+
+  .sale_p {
+    position: absolute;
+    background-color: red;
+    padding: 6px;
+  }
+
+  .sold {
+    position: relative;
+    top: -62%;
+    left: 6%;
+  }
+
+  .sold_p {
+    position: absolute;
+    background-color: grey;
+    padding: 6px;
+  }
+
+  /*PRODUKT*/
+
+  .bold_img img {
+    width: 30%;
+    margin-left: 250px;
+    border-radius: 20px;
+    border: solid 1px black;
+  }
+
+  .bold_txt {
+    width: 60%;
+    margin-left: -1px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px black;
+    margin-top: 30px;
+    margin-left: 250px;
+  }
+
+  .info_box {
+    width: 25%;
+    position: absolute;
+    background-color: lightgrey;
+    border-radius: 10px;
+    top: 92%;
+    left: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px black;
+  }
+
+  .label {
+    display: flex;
+  }
+
+  form {
+    margin-bottom: 30px;
+  }
+}
