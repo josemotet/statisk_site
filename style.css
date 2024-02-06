@@ -116,7 +116,7 @@ header {
 
 .bold img {
   align-self: center;
-  height: auto; /* For at bevare billedets proportioner */
+  height: auto;
   margin: 0 auto;
 }
 
@@ -132,10 +132,17 @@ header {
   font-weight: bold;
 }
 
+.procent {
+  position: absolute;
+  top: 17%;
+  left: 74%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 2px;
+}
+
 .sale {
-  position: relative;
-  top: -13%;
-  left: 76%;
+  color: red;
 }
 
 .sale_p {

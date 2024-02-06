@@ -18,7 +18,35 @@
         <a href="produktliste.html">Produktliste</a>
     </header>
 
-    <main>
+    <section>
+        <h2>Produktliste</h2>
+    </section>
+
+
+    <main class="productlist">
+
+        <template id="smallProductTemplate">
+            <article class="smallProduct">
+
+                <img src="img/bold.webp" alt="bold">
+
+                <h3>Bold</h3>
+                <p class="subtle">Bold/Puma</p>
+                <p class="price"><span>Prev.</span>250 kr</p>
+                <div class="sale">
+                    <p>Now 125 kr</p>
+                    <p class="procent">50%</p>
+                </div>
+
+                <a href="produkt.html">Read More</a>
+
+            </article>
+        </template>
+
+
+    </main>
+
+    <!-- <main>
 
         <div class="logo">
             <h1>FashionRus</h1>
@@ -27,17 +55,20 @@
         <h1>Produktliste</h1>
 
         <div class="produktliste_grid">
-            <div class="bold">
-                <img src="img/bold.webp" alt="bold">
-                <h3>Bold</h3>
-                <div class="subtle">
-                    <p>Bold/Puma</p>
+
+            <template>
+                <div class="bold">
+                    <img src="img/bold.webp" alt="bold">
+                    <h3>Bold</h3>
+                    <div class="subtle">
+                        <p>Bold/Puma</p>
+                    </div>
+                    <div class="price">
+                        <p>250 kr</p>
+                    </div>
+                    <div class="laesmere"><a href="produkt.html">Læs Mere</a></div>
                 </div>
-                <div class="price">
-                    <p>250 kr</p>
-                </div>
-                <div class="laesmere"><a href="produkt.html">Læs Mere</a></div>
-            </div>
+            </template>
 
             <div class="bold">
                 <img src="img/bold.webp" alt="bold">
@@ -123,9 +154,9 @@
         </div>
 
 
-    </main>
+    </main> -->
 
-    <script src="productlist.js"></script>
+    <script src="js/productlist.js"></script>
 
 </body>
 

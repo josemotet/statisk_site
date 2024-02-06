@@ -48,11 +48,24 @@
   .underkategorier a:hover {
     color: gray;
   }
+  .productlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+
+  .procent {
+    position: absolute;
+    top: 6%;
+    left: 74%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 2px;
+  }
 
   .produktliste_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
     margin-left: 150px;
   }
